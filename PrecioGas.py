@@ -1,6 +1,10 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
+import os
+
+# Change the current working directory to /content/
+os.chdir('/content/')
 
 st.write(''' # Predicción del Precio de la Gasolina con Streamlit ''')
 st.image("gasolina.jpg", caption="Precio de gasolina regular.")
